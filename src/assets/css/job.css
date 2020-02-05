@@ -1,0 +1,113 @@
+.show_on {
+    width: 100%;
+    text-align: center;
+}
+
+.show_content_on {
+    width: 100%;
+}
+
+.show_content_on .job_content_top {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.show_content_on .job_content_top img {
+    width: 50%;
+}
+
+.show_content_on .job_content_top p {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.show_content_on .job_content_des {
+    margin-top: 2.5em;
+}
+
+.show_content_on .job_content_des, .show_content_on .job_content_des table {
+    width: 100%;
+}
+
+.show_content_on .job_content_des .title {
+    height: 3em;
+    background-color: #ededed;
+    text-align: left;
+}
+
+.show_content_on .job_content_des .title .padding {
+    padding-left: 0.5em;
+}
+
+.show_content_on .job_content_des .title .center {
+    text-align: center;
+}
+
+.show_content_on .job_content_des tr td {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ededed;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 0;
+    }
+
+    .show_content {
+        margin-top: 1em;
+    }
+
+    .show_content_on .job_content_top p {
+        width: 100%;
+        margin-top: 1em;
+        font-size: 0.5em;
+    }
+
+    .show_content_on .job_content_top {
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .show_content_on .job_content_top img {
+        width: 30%;
+    }
+
+    .show_content_on .job_content_des td {
+        font-size: 0.5em;
+    }
+
+    .show_content_on .job_content_des .title {
+        height: 2em;
+        background-color: #ededed;
+        text-align: left;
+    }
+}
+.text-center{
+	text-align: center;
+}
+.job-img{
+	width: 100%;
+}
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}

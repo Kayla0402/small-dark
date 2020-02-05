@@ -1,0 +1,375 @@
+.content_on {
+    background-color: #fff;
+    /*font-family: "FZLTXHJW";*/
+}
+
+.lunbo {
+    height: 657px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.lunbo_container {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 10000px;
+}
+
+.content_header_on {
+    height: 100%;
+    width: 100%;
+    float: left;
+    min-width: 980px;
+}
+
+.content_header_on_0 {
+    background: transparent url(../img/lunbo01.jpg?fsgtf) no-repeat scroll center top;
+    background-size: 100% 100%;
+}
+
+.content_header_on_1 {
+    background: transparent url(../img/lunbo02.jpg?fsgtf) no-repeat scroll center top;
+    background-size: 100% 100%;
+}
+
+.content_header_on_2 {
+    background: transparent url(../img/lunbo01.jpg?fsgtf) no-repeat scroll center top;
+    background-size: 100% 100%;
+}
+
+.content_header_on_3 {
+    background: transparent url(../img/lunbo01.jpg?fsgtf) no-repeat scroll center top;
+    background-size: 100% 100%;
+}
+
+.points {
+    width: 200px;
+    height: 10px;
+    padding-left: 6px;
+    position: absolute;
+    left: 50%;
+    bottom: 105px;
+    margin-left: -100px;
+    z-index: 99;
+    text-align: center;
+}
+
+.points div {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0.7;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+    *display: inline;
+    zoom: 1;
+}
+
+.points div.current_pointer {
+    background-color: #94b131;
+    opacity: 1;
+}
+
+.content_do {
+    padding: 75px 10% 0;
+}
+
+.do {
+    width: 100%;
+    text-align: center;
+}
+
+.do img {
+    margin-bottom: 35px;
+    width: 45%;
+}
+
+.do p {
+    font-size: 14px;
+    color: #666;
+    width: 90%;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.do .project {
+    margin-top: 65px;
+    width: 100%;
+    float: left;
+}
+
+.do .project li {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    width: 16%;
+    text-align: center;
+    /*height: 87px;*/
+}
+
+.do .project li p {
+    margin-top: 5px;
+    padding: 0 10%;
+}
+
+.do .project li img {
+    margin-bottom: 0px;
+}
+.case {
+    padding: 45px 0 0;
+}
+.case .case_title {
+    text-align: center;margin-top: 15px;
+}
+
+.case .case_title img {
+    width: 15%;
+}
+
+.case .case_item {
+    width: 100%;
+    margin: 23px auto 30px;
+    text-align: center;
+}
+
+.case .case_item span {
+    font-size: 14px;
+    color: #666;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+ul.accordion {
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    height: 480px;
+}
+
+ul.accordion li {
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-box-shadow: 2px 0px 15px #555;
+    -webkit-box-shadow: 2px 0px 15px #555;
+    box-shadow: 2px 0px 15px #555;
+}
+
+ul.accordion li.bg1 {
+    background-image: url(../img/case_big1.png);
+}
+
+ul.accordion li.bg2 {
+    background-image: url(../img/case_big1.png);
+}
+
+ul.accordion li.bg3 {
+    background-image: url(../img/case_big1.png);
+}
+
+ul.accordion li.bg4 {
+    background-image: url(../img/case_big1.png);
+}
+
+ul.accordion li.bleft {
+    /*border-left: 2px solid #fff;*/
+}
+
+ul.accordion li .heading {
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    /*text-transform: uppercase;*/
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #383838;
+    text-align: center;
+    /*text-shadow: -1px -1px 1px #ccc;*/
+}
+
+ul.accordion li .heading, ul.accordion li .description {
+    bottom: 50px;
+}
+
+ul.accordion li .description {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    display: none;
+}
+
+ul.accordion li .description h2 {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+    margin: 0px 0px 15px 20px;
+}
+
+ul.accordion li .description p {
+    line-height: 14px;
+    margin: 10px 22px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+ul.accordion li .bgDescription {
+    /* background: transparent url(../img/bgDescription.png) repeat-x top left;
+     height: 340px;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     width: 100%;
+     display: none;*/
+}
+
+.partner {
+    padding: 65px 10% 0;
+}
+
+.partner .partner_title {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.partner .partner_title img {
+    width: 18%;
+}
+
+.partner p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    margin: 0;
+}
+
+.partner .partner_ui {
+    margin: 80px auto 0;
+    float: left;
+    width: 100%;
+}
+
+.partner .partner_ui li {
+    width: 20%;
+    float: left;
+}
+
+.partner .partner_ui li img {
+    width: 65%;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+
+    .do .project li img {
+        width: 80%;
+    }
+
+    .do p, .partner p, .us .contact li p, .us p {
+        font-size: 12px;
+    }
+
+    .do .project {
+        margin-top: 20px;
+    }
+
+    .content_do {
+        padding: 45px 10% 0;
+    }
+
+    .partner {
+        padding: 35px 10% 0;
+    }
+
+    .partner .partner_title {
+        margin-bottom: 15px;
+    }
+
+    .partner .partner_ui {
+        margin: 20px auto 0;
+        width: 100%;
+    }
+
+    .partner .partner_ui li img {
+        width: 90%;
+    }
+
+    .case {
+        padding: 45px 0 0;
+    }
+
+    .case .case_item {
+        margin: 13px auto 20px
+    }
+
+    .case .case_item span {
+        font-size: 12px;
+        margin: 0 12px;
+    }
+
+    ul.accordion {
+        height: 320px;
+    }
+
+    ul.accordion li .description h2 {
+        font-size: 13px;
+    }
+
+    ul.accordion li .description p {
+        line-height: 14px;
+        margin: 5px 12px;
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+
+    ul.accordion li .heading, ul.accordion li .description {
+        bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/*自适应轮播*/
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 70px;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+@media only screen and (max-width: 600px ) {
+	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 20px;
+}
+}

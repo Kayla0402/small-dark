@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>尊方科技</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .download_div{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+
+        }
+
+        .download_title{
+            padding-top: 1em;
+            padding-bottom: 1em;
+            /*background-color: #d7e2f7;*/
+            background: -webkit-gradient(linear, left top, left bottom, from(#d7e2f7), to(#ffffff));
+        }
+        .img_app_overview {
+            width: 100%;
+            height: 480px;
+            display: block;
+        }
+
+        .download_button{
+            /*margin-top: -0.3em;*/
+            width: 100%;
+        }
+
+        .button{
+            /*margin-top: 5em;*/
+            margin-left: 0.8em;
+            display: inline-block;
+            outline: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font: 14px/100% Arial, Helvetica, sans-serif;
+            color:#fff;
+            background-repeat:no-repeat;
+            background-image:url(http://image.cubeler.cn/67895f9ce05d36217837/down.png);
+            background-size: 100%;
+            background-color: transparent;
+            border-style: none;
+            width: 16em;
+            height: 4em;
+        }
+
+        /*.button_green{*/
+        /*    background: #c8dd95;*/
+        /*    background: -webkit-gradient(linear, left top, left bottom, from(#7a71d0), to(#ffffff) );*/
+        /*    background: -moz-linear-gradient(-90deg, #7a71d0, #ffffff);*/
+        /*}*/
+
+        .download_tips{
+            font-size: 0.5em;
+            margin-top: 1em;
+            font-weight: normal;
+            margin-top: 3em;
+        }
+
+        .button_top{
+            margin-top: 33em;
+        }
+
+        a:hover, a:visited, a:link, a:active {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /*mobile*/
+        @media screen and (max-width: 1199px){
+            .img_app_overview {
+                width: 100%;
+                height: 250px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body style="background:url(http://image.cubeler.cn/54fc2d9c25857846f6c3/down.png) no-repeat;background-size: 100%;">
+<div class="download_div" style="">
+    <div class="download_button">
+        <button class="button button_green button_top" onclick="downloadClientApp();"><a href="javascript:void(0);"></a></button>
+    </div>
+    <a  style="margin-top: 150px" href="https://mobile.cubeler.cn:8442/scmmanage/embedded.mobileprovision">信任证书</a>
+</div>
+<script>
+
+    let Terminal = {
+        platform: function () {
+            let u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                // android终端或者uc浏览器
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                // 是否为iPhone或者QQHD浏览器
+                iPhone: u.indexOf('iPhone') > -1,
+                // 是否iPad
+                iPad: u.indexOf('iPad') > -1
+            };
+        }(),
+    };
+    let downloadClientApp = function () {
+
+        let ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            alert("请选择在浏览器打开");
+            return;
+        }
+        if (Terminal.platform.android) {
+            window.open("https://scm.cubeler.cn:8442/scmWeb/app.apk");
+        } else {
+            window.location.href = 'itms-services:///?action=download-manifest&url=https://mobile.cubeler.cn:8442/scmmanage/down.plist?rht';
+        }
+    };
+</script>
+</body>
+</html>

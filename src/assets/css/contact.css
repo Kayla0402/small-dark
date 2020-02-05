@@ -1,0 +1,188 @@
+.show_on {
+    width: 100%;
+}
+
+.show_content {
+    position: relative;
+    margin-top: 30px;
+}
+
+.show_content .callus {
+    position: absolute;
+    right: 15px;
+    width: 42px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.show_content .callus a {
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_content .callus .tel {
+    background: url(../img/call.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .qq {
+    background: url(../img/qq.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .top-arrow {
+    background: url(../img/top-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content .callus .top-arrow.bottom-arrow {
+    background: url(../img/bottom-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content_on {
+    padding: 3.5%;
+    background-color: #1677c0;
+    color: #fff;
+}
+
+.show_content_on .contact_left {
+    float: left;
+    width: 45%;
+}
+
+.show_content_on .contact_left .ad {
+    font-size: 2em;
+}
+
+.show_content_on .contact_left .tel {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 1em 0 0.6em;
+}
+
+.show_content_on .contact_right {
+    float: right;
+    width: 45%;
+}
+
+.show_content_on .contact_right ul {
+    width: 100%;
+}
+
+.show_content_on .contact_right ul li {
+    display: block;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid #fff;
+}
+
+.show_content_on .contact_right ul li.button {
+    padding: 0;
+}
+
+.show_content_on .contact_right ul li.button button {
+    background-color: transparent;
+    border: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.show_content_on .contact_right ul li input {
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    color: #fff;
+    font-size: 1.2em;
+
+}
+
+.show_content_on .contact_right ul li input::-webkit-input-placeholder {
+    　　color: #fff;
+}
+
+.show_content_on .contact_right ul li input:-moz-placeholder {
+    　　color: #fff;
+}
+
+.show_content_on .contact_right ul li input::-moz-placeholder {
+    　　color: #fff;
+}
+
+.show_content_on .contact_right ul li input:-ms-input-placeholder {
+    　　color: #fff;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 0;
+    }
+
+    .show_content {
+        margin-top: 1em;
+    }
+
+    .show_content_on .contact_left .ad {
+        font-size: 1.2em;
+    }
+
+    .show_content_on .contact_left .tel {
+        font-size: 1.2em;
+        margin: 0.5em 0 0.3em;
+    }
+
+    .show_content_on .contact_left, .show_content_on .contact_right {
+        float: right;
+        width: 100%;
+    }
+
+    .show_content_on .contact_left ul li {
+        font-size: 0.5em;
+    }
+
+    .show_content_on .contact_right {
+        margin-top: 1em;
+    }
+
+    .show_content_on .contact_right ul li {
+        margin-bottom: 0.8em;
+    }
+
+    .show_content_on .contact_right ul li input {
+        font-size: 1em;
+    }
+}
+
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}

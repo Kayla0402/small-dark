@@ -1,0 +1,111 @@
+.show_on {
+    width: 100%;
+}
+
+.show_content {
+    position: relative;
+    margin-top: 30px;
+}
+
+.show_content .callus {
+    position: absolute;
+    right: -35px;
+    width: 42px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.show_content .callus a {
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_content .callus .tel {
+    background: url(../img/call.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .qq {
+    background: url(../img/qq.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .top-arrow {
+    background: url(../img/top-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content .callus .top-arrow.bottom-arrow {
+    background: url(../img/bottom-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content_on {
+    width: 100%;
+
+}
+
+.show_content_on ul {
+    float: left;
+    width: 100%;
+}
+
+.show_content_on ul li {
+    float: left;
+    width: 22%;
+    padding-right: 4%;
+    position: relative;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 0 1.2em;
+
+}
+.show_content_on ul li div{position: relative;float: left;width: 100%;}
+.show_content_on ul li img {
+    float: left;
+    width: 100%;
+}
+
+.show_content_on ul li img.active {
+    display: none;
+    position: absolute;top:0;left: 0;z-index: 2;bottom: 0;
+    right:0;
+    left:0;background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 0;
+    }
+
+    .show_content {
+        margin-top: 1em;
+    }
+    .show_content_on ul li{
+        margin:0 0 0.7em;}
+}

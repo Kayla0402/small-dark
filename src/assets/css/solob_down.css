@@ -1,0 +1,27 @@
+h4{
+	font-size: 40px;
+	margin: 20px 0;
+}
+img{
+	margin-top: 20px;
+}
+.info span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	color: #999999;
+	margin-right: 30px;
+}
+.info li{
+	line-height: 30px;
+}
+.show-box p{
+	margin: 10px 0;
+}
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}

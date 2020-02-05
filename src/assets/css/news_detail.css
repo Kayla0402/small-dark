@@ -1,0 +1,222 @@
+.show_on {
+    width: 100%;
+}
+
+.show_tab {
+    padding: 63px 0 0 15px;
+    position: relative;
+    display: block;;
+}
+
+.show_tab span {
+    float: left;
+    margin: 0 38px 0 0;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.show_tab .hr {
+    width: 26px;
+    height: 0px;
+    border-top: 1px solid #666;
+    float: left;
+    margin-top: 7px;
+}
+
+.show_content {
+    position: relative;
+    margin-top: 30px;
+}
+
+.show_content .callus {
+    position: absolute;
+    right: -35px;
+    width: 42px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.show_content .callus a {
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_content .callus .tel {
+    background: url(../img/call.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .qq {
+    background: url(../img/qq.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.show_content .callus .top-arrow {
+    background: url(../img/top-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content .callus .top-arrow.bottom-arrow {
+    background: url(../img/bottom-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+
+.show_content_on {
+    width: 100%;
+
+}
+
+.show_content_on h2 {
+    color: #333;
+    font-size: 30px;
+    margin: 0.83em 0 0;
+}
+
+.show_content_on h3 {
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 1em 0 0;
+}
+
+.show_content_on h3 span {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.show_content_on h3 a {
+    padding: 6px 12px;
+    border: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #333;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.show_content_on h3 a:hover {
+    border: 1px solid #dd3635;
+    color: #dd3635;
+}
+
+.show_content_on .article {
+    width: 100%;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.show_content_on .article p {
+    font-size: 14px;
+    color: #666;
+    margin: 1em 0;
+    text-indent: 2em;
+}
+
+.show_content_on .article p img {
+    margin-left: -2em;
+    max-width: 100%;
+}
+
+.show_content_on .more {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.show_content_on .more ul {
+    width: 80%;
+    color: #666;
+    margin: 0;
+    float: left;
+}
+
+.show_content_on .more ul a {
+    color: #666;
+}
+
+.show_content_on .more span {
+    color: #999;
+    font-size: 12px;
+    width: 20%;
+    float: right;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 0;
+    }
+
+    .show_content {
+        margin-top: 1em;
+    }
+
+    .show_content_on h2 {
+        font-size: 1em;
+    }
+
+    .show_content_on h3 {
+        font-size: 0.5em;
+    }
+
+    .show_content_on h3 a {
+        padding: 0.2em 0.5em;
+        font-size: 0.5em;
+    }
+
+    .show_content_on .article {
+        padding: 0.5em 0 1em;
+    }
+
+    .show_content_on .article p {
+        margin: 0.2em 0;
+        font-size: 0.5em;
+    }
+    .show_content_on .more{margin-top: 0.5em;}
+    .show_content_on .more ul li,.show_content_on .more ul li a{font-size: 0.4em;}
+    .show_content_on .more span{font-size: 0.3em;}
+}
+.clearboth{
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+

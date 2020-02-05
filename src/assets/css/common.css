@@ -1,0 +1,287 @@
+.content_inside_on {
+    background: #fff url(../img/content_bg.png?fsgtf) repeat;
+}
+
+.head_inside {
+    width: 100%;
+    height: 384px;
+    position: relative;
+}
+
+.head_inside .head_inside_topimg {
+    background: url(../img/GIF.gif?fsgtf) no-repeat center top;
+    height: 100%;
+}
+
+.navbar-inverse .navbar-nav > li.nav_active > a {
+    color: #94b131;
+    border-bottom: 1px solid #94b131;
+}
+
+p, pre {
+    margin: 0;
+}
+
+.us {
+    margin-top: 110px;
+    padding: 0 10% 0;
+    background: transparent url(../img/us.png?fsgtf) no-repeat scroll center top;
+    position: relative;
+    overflow: hidden;
+}
+
+.us .us_title {
+    text-align: center;
+    padding-top: 85px;
+    margin-bottom: 20px;
+}
+
+.us .us_title img {
+    width: 22%;
+}
+
+.us p {
+    color: #dff2ff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.us .contact {
+    margin: 80px auto 0;
+    width: 100%;
+    float: left;
+}
+
+.us .contact li {
+    width: 17.5%;
+    float: left;
+    text-align: center;
+}
+
+.us .contact img {
+    width: 22%;
+}
+
+.us .contact .qr {
+    width: 30%;
+
+}
+
+.us .contact .qr img {
+    width: 50%;
+
+}
+
+.us .contact li p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #dff2ff;
+    line-height: 15px;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.us .contact li p.call {
+    line-height: normal;
+}
+
+.us .contact li p.call a {
+    border-radius: 3px;
+    cursor: pointer;
+    *display: inline;
+    zoom: 1;
+    border: 1px solid #e3e3e3;
+    color: #dff2ff;
+    padding: 10px 0px;
+    display: block;
+    margin: 0 10%;
+}
+
+.us .foot_on {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.us .foot_on .foot {
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    height: 53px;
+    text-align: center;
+}
+
+.us .foot_on .foot a {
+    text-align: center;
+    line-height: 53px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 12px;
+}
+
+.us .foot_on .ownership {
+    height: 80px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .navbar.navbar-fixed-top {
+        top: 0px;
+    }
+
+    .us .contact li p, .us p {
+        font-size: 12px;
+    }
+
+    .us {
+        margin-top: 45px;
+    }
+
+    .us .us_title {
+        padding-top: 35px;
+    }
+
+    .us .contact {
+        margin: 40px auto 0
+    }
+
+    .us .contact img {
+        width: 50%;
+    }
+
+    .us .contact li p .call {
+        width: 90%;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .us .foot_on .foot a {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+
+    .us .foot_on .ownership {
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 560px) {
+    .us .foot_on .foot {
+        height: 50px;
+        padding-top: 5px;
+        margin-top: 30px;
+    }
+
+    .us .foot_on .foot a {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 880px) {
+    .us .contact li p.call a {
+        font-size: 0.2em;
+        line-height: 16px;
+        padding: 10px 0.3em;
+    }
+}
+
+/*手机端*/
+.phone h3{
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+}
+.phone .input-group{
+	width: 100%;
+	margin: 10px;
+}
+.phone textarea{
+    padding: 5px 10px;
+    width: 100%;
+    height: 198px;
+}
+.phone .send{
+	height: 76px;
+    line-height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #0099FF;
+    text-align: center;
+    margin: 20px auto 15px;
+}
+.phone .tel{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 28px 0 20px ;
+}
+.phone .tel-icon{
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.phone .banquan{
+	padding: 10px 0;
+	border-top: 1px solid #FFFFFF;
+}
+/*侧滑栏*/
+.pageTop .callus {
+    position: fixed;
+    right: 15px;
+    bottom: 100px;
+    width: 42px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.pageTop .callus a {
+    width: 100%;
+    cursor: pointer;
+}
+
+.pageTop .callus .tel {
+    background: url(../img/call.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.pageTop .callus .qq {
+    background: url(../img/qq.png) no-repeat center center;
+    background-size: 50% 50%;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+
+.pageTop .callus .top-arrow {
+    background: url(../img/top-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+.pageTop .callus .top-arrow.bottom-arrow {
+    background: url(../img/bottom-arrow.png) no-repeat center center;
+    height: 42px;
+    display: block;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.pageTop{
+		display: none;
+	}
+}

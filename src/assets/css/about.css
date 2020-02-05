@@ -1,0 +1,317 @@
+.head_inside {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+}
+
+.top {
+	background: url(../images/about-topbg.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.top-text {
+	text-align: center;
+	position: absolute;
+	bottom: 20%;
+	color: #FFFFFF;
+}
+
+@media (max-width: 701px) {
+	.top-text {
+		bottom: 5%;
+	}
+	.top {
+		background-position: center;
+		background-size: 183% 100%;
+	}
+}
+
+
+/*历程*/
+
+.course {
+	background: url(../images/about-coufbg.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.course1 .icon,
+.course2 .icon,
+.course3 .icon,
+.course4 .icon {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: center;
+}
+
+.course .title {
+	color: #FFFFFF;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.course .title p {
+	font-size: 10px;
+	color: rgba(250, 250, 250, 0.6)
+}
+
+.course-logo {
+	position: absolute;
+	left: 60%;
+	margin-left: -450px;
+	top: 45%;
+}
+
+.course1,
+.course2,
+.course3,
+.course4 {
+	position: absolute;
+	left: 60%;
+}
+
+.course1 {
+	top: 32%;
+	margin-left: -350px;
+}
+
+.course2 {
+	top: 45%;
+	margin-left: -200px;
+}
+
+.course3 {
+	top: 60%;
+	margin-left: -100px;
+}
+
+.course4 {
+	top: 75%;
+	margin-left: -300px;
+}
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+
+@media (min-width: 1200px) {
+	.course-logo {
+		width: 240px;
+		height: 240px;
+	}
+	.course1 .icon,
+	.course2 .icon,
+	.course3 .icon,
+	.course4 .icon {
+		width: 75px;
+		height: 75px;
+		line-height: 75px;
+		font-size: 40px;
+	}
+	.course .title {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 701px) {
+	.course-logo {
+		width: 160px;
+		height: 160px;
+	}
+	.course1 .icon,
+	.course2 .icon,
+	.course3 .icon,
+	.course4 .icon {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 30px;
+	}
+	.course .title {
+		font-size: 15px;
+	}
+}
+
+
+/* 超小屏幕（手机，小于 768px） */
+
+
+/* 没有任何媒体查询相关的代码，因为这在 Bootstrap 中是默认的（还记得 Bootstrap 是移动设备优先的吗？） */
+
+@media (max-width: 700px) {
+	.course-logo {
+		display: none;
+	}
+	.course1 .icon,
+	.course2 .icon,
+	.course3 .icon,
+	.course4 .icon {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+	}
+	.course .title {
+		font-size: 10px;
+	}
+	.course1,
+	.course2,
+	.course3,
+	.course4 {
+		margin-left: -200px;
+	}
+}
+
+
+/*team*/
+
+.team {
+	background: url(../images/about-teambg.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.team-bg {
+	position: absolute;
+	background: rgba(73, 126, 64, .6);
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 0;
+}
+
+.team .team-img {
+	padding-top: 60px;
+}
+
+.team img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.team div {
+	padding: 0;
+}
+
+.green {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(73, 126, 64, .6);
+	z-index: 10;
+	top: 0;
+	z-index: 10;
+}
+
+.green:hover {
+	background: rgba(0, 0, 0, 0);
+}
+
+.team .title {
+	color: #fff;
+}
+
+.team h4 {
+	font-size: 28px;
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+.team h5 {
+	font-size: 21px;
+	position: absolute;
+	top: 140px;
+	left: 10px;
+}
+
+.team p {
+	font-size: 10px;
+	position: absolute;
+	top: 200px;
+	left: 10px;
+}
+@media (max-width: 700px) {
+	.team h4{
+		font-size: 14px;
+		bottom: -50px;
+	}
+	.team h5{
+		font-size: 10px;
+		bottom: -70px;
+		width: 200px;
+	}
+	.team p{
+		display: none;
+	}
+}
+
+/**/
+
+.datum {
+	background: #135966;
+}
+
+.datum-swiper {
+	padding: 160px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.col3 {
+	display: inline-block;
+	width: 30%;
+	height: 50%;
+}
+
+.col3 img {
+	display: inline-block;
+	width: 100%;
+	height: 250px;
+}
+
+.col3 p {
+	color: #FFFFFF;
+	line-height: 25px;
+	font-size: 14px;
+	margin: 10px 0 10px 0;
+}
+
+.col3 button {
+	width: 100%;
+	border-radius: 0;
+	background: #1677c0;
+	color: #fff;
+}
+
+
+/**/
+
+.footer {
+	background: url(../images/about-footer.jpg);
+	background-size: 100% 100%;
+}
+
+
+/*特别修改*/
+
+.head_inside {
+	height: 60px;
+}
+
+
+
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}

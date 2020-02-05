@@ -1,0 +1,139 @@
+.show_on {
+    width: 100%;
+}
+
+.show_tab {
+    padding: 63px 0 0 15px;
+    position: relative;
+    display: block;;
+}
+
+.show_tab span {
+    float: left;
+    margin: 0 38px 0 0;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.show_tab .hr {
+    width: 26px;
+    height: 0px;
+    border-top: 1px solid #666;
+    float: left;
+    margin-top: 7px;
+}
+
+.show_content {
+    position: relative;
+    padding: 0 2%;
+    margin-top: 30px;
+}
+
+
+
+.show_content_on {
+    float: left;
+    width: 100%;
+}
+
+.show_content_on li {
+    float: left;
+    width: 32.033%;
+    padding-right: 1.3%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.show_content_on > li > .imgbighidden {
+    overflow: hidden;
+}
+
+.bgshadow {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+    right: 0;
+    height: 100%;
+    background-color: #1593ee;
+    color: #fff;
+    display: none;
+}
+
+.show_content_on li .show_content_title.fontwhite p {
+    color: #fff;
+}
+
+.show_content_on li img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.show_content_on li .show_content_title {
+    padding: 10px;
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.show_content_on li .show_content_title p {
+    font-size: 16px;
+    color: #333;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.show_content .page {
+    width: 20%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+    text-align: center;
+    margin: 30px auto 0;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 0;
+    }
+
+    .show_content_on li .show_content_title p, .show_content .page {
+        font-size: 12px;
+    }
+
+    .show_content_on li .show_content_title {
+        padding: 5px;
+    }
+
+    .show_content_on li .show_content_title p {
+        line-height: 18px;
+    }
+}
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}

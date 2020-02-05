@@ -1,0 +1,105 @@
+{
+	"OtherPepole": [{//其它联系人
+		"otherName": "徐国建",
+		"otherPhone": "13515821157",
+		"otherRelation": "朋友"
+	}],
+	"PrincipalConstractID": "H1806200005",
+	"agencyFee": "0", //代理费
+	"applyTime": 1529482822000, //申请借款时间
+	"bondCompany": [], //担保公司
+	"bondsmans": [{ //担保人
+		"bondmanCard": "330521195603255810",
+		"bondmanName": "沈根源",
+		"bondmanPhone": "13626725056",
+		"bondmanRelation": "男朋友"
+	}],
+	"cardNo": "320103197107231847", //客户身份证号
+	"cashDeposit": "18000", //保证金
+	"coBorrower": [], //共同借款人
+	"constractApplys": [{ //抵押物授信价格
+		"loanApplyId": "S1806200004",
+		"mortgageRate": "76.9", //授信抵押率
+		"totalPrice": "1170000", //授信总价
+		"unitPrice": "9500" //授信单价
+	}],
+	"constractId": "H1806200005",
+	"customerAge": "47", //客户年龄
+	"customerName": "瞿耘", //客户姓名
+	"customerPhone": "13771646375", //客户手机号
+	"customrepaymentday": 18, //指定还款日
+	"eightHundred": "0", //是否收取800元评估费
+	"endRepayDate": 1687190400000, //还款结束日
+	"firstRepayDate": 1531843200000, //首次还款日
+	"frontUserId": "1158d6ecc9cf40e1adab75ad65ea03b8",
+	"frontUserName": "瞿耘",
+	"creditInvestigation": ["uploadFiles/certificate/2018/09/29/67387d799cdb49dab8db2bf2bd432fce.png", "uploadFiles/certificate/2018/09/29/6350971dfb57415fb53c2d5614c1d220.png", "uploadFiles/certificate/2018/09/29/875ce3ddf17d459cb6d680d54dab3575.png", "uploadFiles/certificate/2018/09/29/18533ce1442b4ebcabea4b3a3c0fe346.png", "uploadFiles/certificate/2018/09/29/361d6e1d32d44a45bbe1ea70ad6499bc.png", "uploadFiles/certificate/2018/09/29/7be46b82da274fd8a6faad8f8e5196c7.png", "uploadFiles/certificate/2018/09/29/eb5bcebba9a644e9bbf3df668fa7fb27.png", "uploadFiles/certificate/2018/09/29/52ecc64c76924dbc8d221736756431c6.png", "uploadFiles/certificate/2018/09/29/4d98857ee3034fc382ccdba44296d540.png", "uploadFiles/certificate/2018/09/29/761a4cb1a28a4a24a88ea922c4bfbe8a.png"] //征信
+	"item01": "1",
+	"item02": "1",
+	"item03": "1",
+	"item04": "1",
+	"item05": "1",
+	"item06": "1",
+	"item07": "1",
+	"item08": "1",
+	"item09": "1",
+	"item10": "1",
+	"item11": "0",
+	"item12": "1",
+	"item13": "1",
+	"item14": "1",
+	"item15": "1",
+	"item16": "1",
+	"item17": "1",
+	"item18": "1",
+	"item19": "1",
+	"limitPrice": "900000", //等额本息授信额度
+	"limitPrice2": "0", //先息后本授信额度
+	"limitPriceTotal": "900000", //总额度
+	"loanAim": "资金周转", //借口目的
+	"loanAmount": "900000.00", //借款金额
+	"loanDate": 1529424000000, //起息日
+	"loanId": "223",
+	"loanNo": "J1806200001",
+	"mangement": "9000", //管理费
+	"period": "60",
+	"peroids": 60, //借款期限
+	"pledgeInfo": [{ //抵押物信息
+		"applyId": "S1806200004",
+		"applyUserName": "黄泽林",
+		"applyUserPhone": "13616145006",
+		"expectAmount": 900000, //期望额度
+		"expectPeriod": 60, //期望期限
+		"feedBackPrice": 9500, //评估单价
+		"houseAcreage": 123.16, //房屋面积
+		"houseAddress": "云岗佳苑14-601", //地址
+		"houseName": "云港佳园14-601", //房屋名
+		"pledgeInfo": "一抵", //抵押情况
+		"pledgecertificate": ["uploadFiles/certificate/2018/06/06/e0ce7069bba1439296c0b7d29134d396.png", "uploadFiles/certificate/2018/06/06/c23a20d021d84f6e9f3541535e228cac.png"], //产权证件
+		"repayType": "等额本息",
+		"topInfo": 0, // 二进制三位 每位 对应1 为是 0 否  分别对应内容 是否顶层楼   是否带阁楼 阁楼是否进房产证面积    如 111 
+		"bottomInfo": 0, // 二进制三位 每位 对应1 为是 0 否  分别对应内容 是否底楼  是否带地下室 地下室是否进房产证面积      如 111 
+		"economical": 0, //是否经济适用房  1 是 0 否
+		"houseType": 2, // 房型  0 跃层 1 复式 2 平层
+		"is520": 0, // 0： 520之前  1：520之后
+		"isResettlement": 0 //是否安置房  1 是 0 否
+	}],
+	"rate": 17.91, //借款利率
+	"remark01": "房产准入",
+	"remark02": "客户资金用途为资金周转",
+	"remark03": "同意批复房抵贷90万元，期限60个月。客户经营农家乐，借款需求为归还85万贷款。借款人单身，追加第三方担保，借款人在苏州吴江有房产，无抵押。",
+	"remark05": "同意",
+	"remark06": "同意批复90万元。",
+	"repaySource": "生意收入", //还款来源
+	"respondedPeriod": "60", //批复期限
+	"respondedRate": "0.88", //批复利率
+	"stateOfOperation": "良好",
+	"loanType": 0, //借款性质 0 新增 1 转贷 2 增额
+	"isTransfer": 0, //是否转单 0 否 1是
+	"isAdvanceMoney": 0, //是否垫资 0 否 1是   
+	"institute": 0, //上单机构 0 私人资方 1不进征信金融机构 2 进征信金融机构   
+	"status": 0, //借款状态 0 借款中 2 已还款
+	"type": 1, // 1 等额本息 2 先息后本
+
+	"upFloatRate": "50.00" //罚息上浮利率
+}

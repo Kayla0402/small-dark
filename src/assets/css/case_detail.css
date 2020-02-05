@@ -1,0 +1,102 @@
+.show_on {
+    width: 100%;
+}
+
+.show_tab {
+    padding: 43px 0 0 15px;
+    position: relative;
+    display: block;;
+}
+
+.show_tab span {
+    float: left;
+    margin: 0 38px 0 0;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.show_tab .hr {
+    width: 26px;
+    height: 0px;
+    border-top: 1px solid #666;
+    float: left;
+    margin-top: 7px;
+}
+
+.show_tab .des_href {
+    color: #333;
+    font-size: 14px;
+}
+
+.show_tab .share {
+    margin-top: 20px;
+}
+
+.show_tab .share a {
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+    padding: 10px 20px;
+    float: left;
+    border-radius: 3px;
+    color: #666;
+}
+
+.border {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+
+.case_show_img {
+    padding: 0 10%;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 898px) {
+    .case_show_img img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .show_tab span {
+        margin: 0 5px 0 15px;
+    }
+
+    .show_tab {
+        padding: 23px 10% 10px;
+    }
+
+    .show_tab .share {
+        margin-top: 10px;
+    }
+
+    .show_tab .des_href {
+        font-size: 12px;
+    }
+
+    .show_tab .share a {
+        padding: 5px 10px;
+    }
+
+}
+
+/**/
+.navbar-brand{
+	background-image: url(../images/about-logo.png);
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
