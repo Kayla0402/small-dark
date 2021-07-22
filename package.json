@@ -44,7 +44,7 @@
     "vuedraggable": "^2.19.2",
     "wangeditor": "^3.0.15",
     "webpack-merge": "^4.1.1",
-    "xlsx": "^0.14.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
